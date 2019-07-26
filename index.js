@@ -4,8 +4,8 @@ const user = 'decentralvision';
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  // return '62e672ebf155e2c6cd4fb0ca610566bf766e15a0';
-  return ''
+  return '62e672ebf155e2c6cd4fb0ca610566bf766e15a0';
+  // return ''
 }
 
 function forkRepo() {
