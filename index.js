@@ -13,7 +13,7 @@ function forkRepo() {
   fetch('https://api.github.com/repos/learn-co-curriculum/js-ajax-fetch-lab/forks', {
     method: 'post',
     headers: {
-      Authorization: `token ${getToken}`
+      Authorization: `token ${getToken()}`
     }
   })
   .then(resp => resp.json())
