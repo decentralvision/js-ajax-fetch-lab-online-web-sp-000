@@ -4,7 +4,7 @@ const user = 'decentralvision';
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return '6ccd5edd7bdbdb47d09fbca763c3e60aca6de177';
+  return 'a8c3c2197cb992f2e8ae1d11ab8f7440e5120f56';
   // return ''
 }
 
