@@ -17,7 +17,7 @@ function forkRepo() {
       Authorization: `token ${getToken()}`
     }
   })
-  .then(resp => resp.json())
+  .then(res => res.json())
   .then(json => showResults(json))
 }
 
